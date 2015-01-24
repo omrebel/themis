@@ -16,8 +16,9 @@ namespace Themis
         [STAThread]
         static void Main()
         {
+            //Set DevExpress skin to use
             SkinManager.EnableFormSkins();
-            DevExpress.LookAndFeel.UserLookAndFeel.Default.SkinName = "VS2010";
+            DevExpress.LookAndFeel.UserLookAndFeel.Default.SkinName = "Office 2010 Blue";
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
